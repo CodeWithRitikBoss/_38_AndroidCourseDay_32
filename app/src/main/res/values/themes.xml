@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Project31OfAndroidDev_UIDesign1WithBottomNavBar" parent="Theme.Material3.DayNight.NoActionBar">
+<!--    <style name="Base.Theme.Project31OfAndroidDev_UIDesign1WithBottomNavBar" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/blue</item>
+<!--                 <item name="colorPrimaryDark">@color/blue</item>-->
+<!--                 <item name="colorAccent">@color/blue</item>-->
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="android:statusBarColor">@color/blue</item>
+    </style>
+
+    <style name="Theme.Project31OfAndroidDev_UIDesign1WithBottomNavBar" parent="Base.Theme.Project31OfAndroidDev_UIDesign1WithBottomNavBar" />
+
+    <style name="softCorner">
+
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+        <item name="color">@color/white</item>
+
+    </style>
+
+    <style name="spinnerTheme">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>

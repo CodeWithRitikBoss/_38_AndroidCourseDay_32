@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg"
+    tools:context=".MainActivity">
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="40sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:gravity="center"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:text="@string/shop_now" />-->
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/lottie"
+        app:lottie_rawRes="@raw/hello_splash"
+        android:foregroundGravity="center"
+        app:lottie_autoPlay="true"/>
+
+    <ImageView
+        android:id="@+id/imageViewForSplashScreen"
+        android:layout_width="450dp"
+        android:layout_height="450dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/shopping_image1" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lottieShoppingCartAnimation"
+        android:layout_marginTop="40sp"
+        app:lottie_rawRes="@raw/shopping_cart_animation"
+        android:foregroundGravity="center"
+        app:lottie_autoPlay="true"/>
+
+
+
+</LinearLayout>
